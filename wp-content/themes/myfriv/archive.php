@@ -49,7 +49,7 @@ if (empty($resultTopGame)) {
     ?>
 
       <article class="games" style="margin-left: 30px">
-        <a href="<?php get_permalink($post_id) ?>" data-hasqtip="27" oldtitle="<?php echo get_the_title($post_id) ?>" title="">
+        <a href="<?php echo get_permalink($post_id) ?>" data-hasqtip="27" oldtitle="<?php echo get_the_title($post_id) ?>" title="">
           <div class="thumb">
             <div class="play">
               <span class="icon icon-link"></span>
