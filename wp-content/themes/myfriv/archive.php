@@ -71,7 +71,7 @@ $result = $wpdb->get_results("SELECT * FROM wp_category_custom WHERE category_id
 ?>
 <div id="games_wrap">
   <div class="padding-10">
-    <h1>
+    <h2>
       <?php
       if (is_category()) {
         echo single_cat_title('', false);
@@ -81,7 +81,7 @@ $result = $wpdb->get_results("SELECT * FROM wp_category_custom WHERE category_id
         _e('Archives', 'myfriv');
       }
       ?>p
-    </h1>
+    </h2>
 
   </div>
 

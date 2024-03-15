@@ -1010,6 +1010,11 @@ a#inifiniteLoaderEnd {
 .list-top-cate {
   display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.list-top-cate a {
+  margin-top: 10px;
 }
 
 .in-list-top-cate {
